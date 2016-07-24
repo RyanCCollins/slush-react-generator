@@ -1,6 +1,6 @@
 # Slush React-generator [![Build Status](https://secure.travis-ci.org/ryanccollins/slush-react-generator.png?branch=master)](https://travis-ci.org/ryanccollins/slush-react-generator) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-react-generator.png)](http://badges.enytc.com/for/npm/slush-react-generator)
 
-> React redux generator for automating tedious react component setup
+> React redux generator for automating tedious react component setup, will eventually be integrated into the [React Redux Simple Starter](https://github.com/RyanCCollins/react-redux-simple-starter) project.
 
 
 ## Getting Started
