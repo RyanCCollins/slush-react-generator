@@ -2,6 +2,8 @@
 
 > React redux generator for automating tedious react component setup, will eventually be integrated into the [React Redux Simple Starter](https://github.com/RyanCCollins/react-redux-simple-starter) project.
 
+### Status
+NOTE: Please do not use this generator yet.  It needs to be tested before release.  The information on this page are here only for reference.
 
 ## Getting Started
 
