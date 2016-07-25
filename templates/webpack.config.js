@@ -7,7 +7,6 @@ const ROOT_PATH = path.resolve(__dirname);
 const env = process.env.NODE_ENV || 'development';
 const PORT = process.env.PORT || 8080;
 const HOST = '0.0.0.0';
-const URL = `http://${HOST}:${PORT}`
 
 
 module.exports = {

@@ -2,13 +2,6 @@ import React, { PropTypes, Component } from 'react';
 import cssModules from 'react-css-modules';
 import styles from './AmazingBox.module.scss';
 
-const randomColor = Math.floor(Math.random() * 16777215).toString(16);
-const BoxStyle = {
-  colorStyle: {
-    color: `#${randomColor}`
-  }
-};
-
 class AmazingBox extends Component {
   constructor() {
     super();
@@ -29,8 +22,7 @@ class AmazingBox extends Component {
     return (
       <div
         className={styles.box}
-        style={BoxStyle.colorStyle}
-        id={`box-item-${id}`}
+        id={'box-item' + box.id} {/* use template strings whenever possible*/}
       >
         <p className={styles.number}>#{id}</p>
         <p className={styles.text}>{content}</p>
