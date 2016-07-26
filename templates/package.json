@@ -19,7 +19,9 @@
     "deploy": "NODE_ENV=production `npm bin`/webpack -p",
     "start": "npm run dev",
     "clean": "rm -rf app/dist app/build",
-    "setup": "npm install"
+    "setup": "npm install",
+    "gen:component": "gulp component",
+    "gen:container": "gulp container"
   },
   "repository": {
     "type": "git",
@@ -88,6 +90,11 @@
     "eslint-config-airbnb": "^4.0.0",
     "eslint-loader": "^1.1.1",
     "eslint-plugin-react": "^3.11.3",
+    "gulp": "^3.9.1",
+    "gulp-conflict": "^0.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-template": "^4.0.0",
+    "inquirer": "^1.0.2",
     "jsdom": "^7.2.0",
     "mocha": "^2.3.4",
     "npm-install-webpack-plugin": "^4.0.3",

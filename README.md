@@ -26,8 +26,7 @@ $ cd my-slush-react-generator && slush react-generator
 
 ### Generators
 Coming soon, there will be generators for:
-- Containers
-- Components
+
 - Action Creators
 - Reducers
 - Tests
@@ -86,6 +85,12 @@ See the [CONTRIBUTING Guidelines](https://github.com/ryanccollins/slush-react-ge
 
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/ryanccollins/slush-react-generator/issues).
+
+## Timeline / Todos
+* [x] Add stateless functional component and container generators
+* [ ] Add reducer and action creator generators
+* [ ] Add test generators
+* [ ] Add documentation for generators
 
 ## License
 
