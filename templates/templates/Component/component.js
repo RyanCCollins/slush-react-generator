@@ -8,4 +8,4 @@ const <%= componentName %> = (props) => (
   </div>
 );
 
-export default connect(<%= componentName %>, styles);
+export default cssModules(<%= componentName %>, styles);

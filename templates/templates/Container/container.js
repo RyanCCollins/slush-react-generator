@@ -28,7 +28,9 @@ const mapDispatchToProps = (dispatch) => ({
   dispatch
 });
 
+const StyledComponent = cssModules(<%= componentName %>, styles)
+
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(<%= componentName %>);
+)(StyledComponent);

@@ -25,8 +25,19 @@ $ cd my-slush-react-generator && slush react-generator
 ```
 
 ### Generators
-Coming soon, there will be generators for:
+The following generators are provided for usage with React
+- Stateless Functional Components
+```
+npm run gen:component
+```
+- Containers
+```
+npm run gen:container
+```
 
+The generators will create new folders within the component and container directories respectively, along with a accompanying .scss file.  
+
+Coming soon, there will be generators for:
 - Action Creators
 - Reducers
 - Tests
