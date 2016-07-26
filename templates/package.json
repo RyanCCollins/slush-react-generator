@@ -92,6 +92,7 @@
     "eslint-plugin-react": "^3.11.3",
     "gulp": "^3.9.1",
     "gulp-conflict": "^0.4.0",
+    "gulp-insert": "latest",
     "gulp-rename": "^1.2.2",
     "gulp-template": "^4.0.0",
     "inquirer": "^1.0.2",
