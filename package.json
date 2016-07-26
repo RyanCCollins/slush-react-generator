@@ -1,7 +1,7 @@
 {
   "name": "slush-react-generator",
   "description": "React redux generator for automating tedious react component setup",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "homepage": "https://github.com/ryanccollins/slush-react-generator",
   "author": {
     "name": "Ryan Collins",
