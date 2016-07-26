@@ -24,6 +24,54 @@ Run the generator from within the new folder:
 $ cd my-slush-react-generator && slush react-generator
 ```
 
+### Generators
+Coming soon, there will be generators for:
+- Containers
+- Components
+- Action Creators
+- Reducers
+- Tests
+
+### File Structure
+* Some files left out for brevity.  Please reference the files in the [React Redux Simple Starter](https://github.com/RyanCCollins/react-redux-simple-starter) project for information about the file structure.
+```
+.
+├── README.md
+├── LICENSE
+├── index.html
+├── package.json
+├── webpack.config.js
+├── app/
+|   ├── fonts
+|   ├── images
+|   ├── src
+|   |   ├── actions
+|   |   ├── components
+|   |   |   ├── MyComponent
+|   |   |   ├── MyOtherComponent
+|   |   |   ├── App.js
+|   |   |   ├── Main.js
+|   |   |   └── index.js
+|   |   ├── containers
+|   |   |   ├── MyContainer
+|   |   |   └── index.js
+|   |   ├── pages
+|   |   ├── reducers
+|   |   ├── store
+|   |   ├── utils
+|   |   └── index.js
+|   ├── styles
+|   └── tests
+|   |   ├── actions
+|   |   ├── components
+|   |   ├── reducers
+|   |   └── test_helper.js
+├── .eslintignore
+├── .eslintrc
+├── .gitattributes
+└── .gitignore
+```
+
 ## Getting To Know Slush
 
 Slush is a tool that uses Gulp for project scaffolding.
@@ -39,7 +87,7 @@ See the [CONTRIBUTING Guidelines](https://github.com/ryanccollins/slush-react-ge
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/ryanccollins/slush-react-generator/issues).
 
-## License 
+## License
 
 The MIT License
 
@@ -65,4 +113,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-

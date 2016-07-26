@@ -9,7 +9,7 @@ To try the example application out or to use the project, follow the instruction
 
 1. **Clone repo**
 
-    git clone https://github.com/RyanCCollins/react-redux-simple-starter.git
+    git clone https://github.com/<%= userName %>/<%= appNameSlug %>.git
 
 2. **Install dependencies**
 
@@ -24,7 +24,6 @@ To try the example application out or to use the project, follow the instruction
 4. **Make build**
 
    npm run build
-
 
 
 ## Technologies / Libraries
@@ -85,3 +84,43 @@ To try the example application out or to use the project, follow the instruction
 - **npm run clean**
 
     Removes the bundled code and the production ready files
+
+### File Structure
+```
+.
+├── README.md
+├── LICENSE
+├── index.html
+├── package.json
+├── webpack.config.js
+├── app/
+|   ├── fonts
+|   ├── images
+|   ├── src
+|   |   ├── actions
+|   |   ├── components
+|   |   |   ├── MyComponent
+|   |   |   ├── MyOtherComponent
+|   |   |   ├── App.js
+|   |   |   ├── Main.js
+|   |   |   └── index.js
+|   |   ├── containers
+|   |   |   ├── MyContainer
+|   |   |   └── index.js
+|   |   ├── pages
+|   |   ├── reducers
+|   |   ├── store
+|   |   ├── utils
+|   |   └── index.js
+|   ├── styles
+|   └── tests
+|   |   ├── actions
+|   |   ├── components
+|   |   ├── reducers
+|   |   └── test_helper.js
+├── .eslintignore
+├── .eslintrc
+├── .gitattributes
+└── .gitignore
+```
+* Some files left out for brevity.  Please reference the files in the [React Redux Simple Starter](https://github.com/RyanCCollins/react-redux-simple-starter) project for information about the file structure.
