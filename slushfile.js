@@ -86,7 +86,7 @@ gulp.task('default', function (done) {
                 return done();
             }
             answers.appNameSlug = _.slugify(answers.appName);
-            gulp.src(__dirname + '/templates/**')
+            gulp.src([__dirname + '/templates/**', '!'+__dirname + '/templates/templates/', '!'+__dirname + '/templates/templates/**'])
                 .pipe(template(answers))
                 .pipe(rename(function (file) {
                     if (file.basename[0] === '_') {
@@ -96,6 +96,8 @@ gulp.task('default', function (done) {
                 .pipe(conflict('./'))
                 .pipe(gulp.dest('./'))
                 .pipe(install())
+              gulp.src([__dirname + '/templates/templates/', __dirname + '/templates/templates/**'])
+                .pipe(gulp.dest('./templates'))
                 .on('end', function () {
                     done();
                 });
