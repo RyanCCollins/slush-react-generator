@@ -2,7 +2,7 @@
 
 > React redux generator for automating tedious react component setup, integrated with the [React Redux Simple Starter](https://github.com/RyanCCollins/react-redux-simple-starter) project.
 
-Note: while totally usable, this generator has mostly been replaced by the [Scalable React Boilerplate](https://github.com/RyanCCollins/scalable-react-boilerplate), which takes a feature-first approach and provides out of the box component generators without Gulp.  A slush generator can be found [here](https://www.npmjs.com/package/slush-generator-scalable-react).
+Note:  If you're looking for a project that is a bit more opinionated, the [Scalable React Boilerplate](https://github.com/RyanCCollins/scalable-react-boilerplate) takes the feature-first approach.  Along with component generators, the scalable-react-boilerplate project serves as a starting place for building scalable apps and component libraries.
 
 ## Getting Started
 
