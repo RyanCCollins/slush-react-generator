@@ -2,7 +2,7 @@
 
 > React redux generator for automating tedious react component setup, integrated with the [React Redux Simple Starter](https://github.com/RyanCCollins/react-redux-simple-starter) project.
 
-Note:  If you're looking for a project that is a bit more opinionated, the [Scalable React Boilerplate](https://github.com/RyanCCollins/scalable-react-boilerplate) takes the feature-first approach.  Along with component generators, the scalable-react-boilerplate project serves as a starting place for building scalable apps and component libraries.
+Note:  If you're looking for a project that is a bit more opinionated and feature-rich, the [Scalable React Boilerplate](https://github.com/RyanCCollins/scalable-react-boilerplate) takes the feature-first approach.  Along with component generators, the scalable-react-boilerplate project serves as a starting place for building scalable apps and component libraries.
 
 ## Getting Started
 
