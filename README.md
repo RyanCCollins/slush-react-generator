@@ -1,3 +1,6 @@
+# Deprecated
+This project is no longer maintained, in favor of the [Scalable React Boilerplate](https://github.com/RyanCCollins/scalable-react-boilerplate) and [Generator Scalable React](https://github.com/RyanCCollins/slush-generator-scalable-react).  Feel free to keep using it!
+
 # Slush React-generator [![Build Status](https://travis-ci.org/RyanCCollins/slush-react-generator.svg)](https://travis-ci.org/ryanccollins/slush-react-generator) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-react-generator.png)](http://badges.enytc.com/for/npm/slush-react-generator)
 
 > React redux generator for automating tedious react component setup, integrated with the [React Redux Simple Starter](https://github.com/RyanCCollins/react-redux-simple-starter) project.
